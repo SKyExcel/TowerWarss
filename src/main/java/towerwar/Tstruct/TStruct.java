@@ -1,7 +1,7 @@
 package towerwar.Tstruct;
 
 import org.bukkit.entity.Player;
-import towerwar.util.MonsterManager;
+import towerwar.manager.MonsterManager;
 
 import java.util.HashMap;
 
