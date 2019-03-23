@@ -8,9 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cc8d317a-6c89-40b2-a4f2-8d5d33ba0983" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TowerWar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TowerWar.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/towerwar/Tstruct/TStruct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/towerwar/Tstruct/TStruct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/towerwar/util/ActionBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/towerwar/util/ActionBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/towerwar/util/MonsterManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/towerwar/util/MonsterManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +27,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/TowerWar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="95">
+              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/Event/PJoin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,14 +52,12 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/Tstruct/TStruct.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+              <caret line="46" column="30" lean-forward="true" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#373#390#0" expanded="true" />
                 <element signature="e#453#470#0" expanded="true" />
-                <element signature="class#Monster#0;class#TStruct#0" />
-                <element signature="e#3613#3614#0" expanded="true" />
-                <element signature="e#3660#3661#0" expanded="true" />
+                <element signature="e#535#553#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/plugin.yml" />
         <option value="$PROJECT_DIR$/src/main/java/towerwar/Event/PJoin.java" />
         <option value="$PROJECT_DIR$/src/main/java/towerwar/util/ActionBar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/towerwar/util/MonsterManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/towerwar/Tstruct/TStruct.java" />
       </list>
     </option>
@@ -112,9 +122,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1618" />
+    <option name="x" value="1407" />
+    <option name="y" value="222" />
     <option name="width" value="2036" />
-    <option name="height" value="2171" />
+    <option name="height" value="1704" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -282,7 +293,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1079" y="0" width="1357" height="1447" extended-state="0" />
+    <frame x="938" y="148" width="1357" height="1136" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30609098" />
@@ -293,7 +304,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.25114155" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32901296" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -339,16 +350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/Event/PJoin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/util/Title.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -371,8 +372,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/TowerWar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="95">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/Event/PJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -382,14 +393,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/Tstruct/TStruct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <caret line="46" column="30" lean-forward="true" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#373#390#0" expanded="true" />
             <element signature="e#453#470#0" expanded="true" />
-            <element signature="class#Monster#0;class#TStruct#0" />
-            <element signature="e#3613#3614#0" expanded="true" />
-            <element signature="e#3660#3661#0" expanded="true" />
+            <element signature="e#535#553#0" expanded="true" />
           </folding>
         </state>
       </provider>
