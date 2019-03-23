@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TowerWar:jar">
+    <output-path>$PROJECT_DIR$/../../../../Bukkit/plugins</output-path>
+    <root id="archive" name="TowerWar.jar">
+      <element id="module-output" name="TowerWar" />
+      <element id="library" level="project" name="java" />
+    </root>
+  </artifact>
+</component>

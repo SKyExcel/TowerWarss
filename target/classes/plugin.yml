@@ -1,0 +1,3 @@
+name: TowerWar
+version: 0.1.0
+main: towerwar.towerwar.TowerWar
