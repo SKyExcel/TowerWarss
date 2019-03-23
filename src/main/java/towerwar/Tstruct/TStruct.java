@@ -18,7 +18,7 @@ public class TStruct {
     private Income incomeclass = new Income(0);
     private Health healthclass = new Health(20);
 
-     public TStruct(Player player){
+    public TStruct(Player player){
         this.player = player;
     }
     public void addPlayer(){
@@ -109,9 +109,7 @@ public class TStruct {
 
 
 
-    public enum Team{
-    BLUE,RED,GREEN,YELLOW,ORANGE,AQUA
-    }
+    public enum Team{BLUE,RED,GREEN,YELLOW,ORANGE,AQUA}
 
 
     /*Monster Class*/
