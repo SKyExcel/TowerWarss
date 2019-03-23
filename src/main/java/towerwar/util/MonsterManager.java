@@ -3,6 +3,8 @@ package towerwar.util;
 import org.bukkit.entity.Player;
 import towerwar.Tstruct.TStruct;
 
+import java.util.List;
+
 public class MonsterManager {
         private String name;
         private int code;
@@ -15,6 +17,7 @@ public class MonsterManager {
         private int Summoned;
         private int Loc;
         private boolean AutoSummon;
+
         public String getname(){ return name; }
         public int getCode(){return code;}
         public int getData(){return data;}
@@ -27,10 +30,11 @@ public class MonsterManager {
         public int getLoc(){return Loc;}
         public boolean getAutoSummon(){return AutoSummon;}
 
-        public void setParm(String name, int code, int data,int cost,int income, int Health, double Speed, int Stock, int Summend, boolean AutoSummon, int Loc){
+        public void setParm(String name, int code, int data , String lores, int cost,int income, int Health, double Speed, int Stock, int Summend, boolean AutoSummon, int Loc){
             this.name = name;
             this.code = code;
             this.data = data;
+
             this.cost = cost;
             this.income = income;
             this.Health = Health;
