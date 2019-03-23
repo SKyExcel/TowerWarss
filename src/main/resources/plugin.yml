@@ -1,0 +1,3 @@
+name: TowerWar
+version: ${project.version}
+main: towerwar.towerwar.TowerWar
