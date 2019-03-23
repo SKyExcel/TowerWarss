@@ -12,20 +12,22 @@ public class TStruct {
     public HashMap<Player , Stock> StockMap = new HashMap<Player , Stock>();
     public HashMap<Player , Income> IncomeMap = new HashMap<Player , Income>();
     public HashMap<Player , Health> HealthMap = new HashMap<Player , Health>();
+    public HashMap<Player , Monster> MonsterMap = new HashMap<Player , Monster>();
+
     //Variable's class
     private Stock stockclass = new Stock(100);
     private  Gold goldclass = new Gold(500);
     private Income incomeclass = new Income(0);
     private Health healthclass = new Health(20);
 
-     public TStruct(Player player){
+    public TStruct(Player player){
         this.player = player;
     }
     public void addPlayer(){
     GoldMap.put(player, this.goldclass);
     StockMap.put(player, this.stockclass);
     IncomeMap.put(player,this.incomeclass);
-    }
+     }
 
     public int getGold(){
 
@@ -35,8 +37,11 @@ public class TStruct {
 
          return IncomeMap.get(player).getIncome();
     }
-
-    /*Base Game Logic*/
+    public void MonsterStock(String name,int ItemCode, int Cost, int Income, int Health, double speed,int Stock, int Summoned){
+        Monster monster = new Monster(name,ItemCode,Cost,Income,Health,speed,Stock,Summoned);
+        MonsterMap.put(player, monster);
+    }
+        /*Base Game Logic*/
     public class Gold{
         private int Gold;
         public Gold(int Gold){
@@ -109,9 +114,7 @@ public class TStruct {
 
 
 
-    public enum Team{
-    BLUE,RED,GREEN,YELLOW,ORANGE,AQUA
-    }
+    public enum Team{BLUE,RED,GREEN,YELLOW,ORANGE,AQUA}
 
 
     /*Monster Class*/
