@@ -1,6 +1,7 @@
 package towerwar.Tstruct;
 
 import org.bukkit.entity.Player;
+import towerwar.util.MonsterManager;
 
 import java.util.HashMap;
 
@@ -12,7 +13,7 @@ public class TStruct {
     public HashMap<Player , Stock> StockMap = new HashMap<Player , Stock>();
     public HashMap<Player , Income> IncomeMap = new HashMap<Player , Income>();
     public HashMap<Player , Health> HealthMap = new HashMap<Player , Health>();
-    public HashMap<Player , Monster> MonsterMap = new HashMap<Player , Monster>();
+    public HashMap<Player , MonsterManager> MonsterMap = new HashMap<Player , MonsterManager>();
 
     //Variable's class
     private Stock stockclass = new Stock(100);
@@ -37,10 +38,7 @@ public class TStruct {
 
          return IncomeMap.get(player).getIncome();
     }
-    public void MonsterStock(String name,int ItemCode, int Cost, int Income, int Health, double speed,int Stock, int Summoned){
-        Monster monster = new Monster(name,ItemCode,Cost,Income,Health,speed,Stock,Summoned);
-        MonsterMap.put(player, monster);
-    }
+
         /*Base Game Logic*/
     public class Gold{
         private int Gold;
@@ -118,133 +116,6 @@ public class TStruct {
 
 
     /*Monster Class*/
-    public class Monster{
 
-
-    public Monster(String Name,int ItemCode, int Cost, int Income, int Health, double Speed, int Stock, int Summoned){
-        Name  name = new Name(Name);
-        ItemCode itemcode = new ItemCode(ItemCode);
-        Cost cost = new Cost(Cost);
-        Income income = new Income(Income);
-        Health health = new Health(Health);
-        Speed speed = new Speed(Speed) ;
-        Stock stock = new Stock(Stock);
-        Summoned summoned = new Summoned(Summoned);
-    }
-
-        public class Name{
-            private String Name;
-            public Name(String Name){
-                this.Name = Name;
-
-            }
-
-            public String getName(){
-                return Name;
-            }
-
-        }
-        public class ItemCode{
-            private int ItemCode;
-            public ItemCode(int ItemCode){
-                this.ItemCode = ItemCode;
-
-            }
-
-            public int getItemCode(){
-                return ItemCode;
-            }
-
-        }
-        public class Cost{
-            private int Cost;
-            public Cost(int Cost){
-                this.Cost = Cost;
-
-            }
-            public void addCost(int addCost){
-                this.Cost += addCost;
-            }
-            public int getCost(){
-                return Cost;
-            }
-
-        }
-        public class Income{
-            private int Income;
-            public Income(int Income){
-                this.Income = Income;
-
-            }
-            public void addIncome(int addIncome){
-                this.Income += addIncome;
-            }
-            public int getIncome(){
-                return Income;
-            }
-
-        }
-  
-
-
-        public class Health{
-            private int Health;
-            public Health(int Health){
-                this.Health = Health;
-
-            }
-            public void addHealth(int addHealth){
-                this.Health += addHealth;
-            }
-            public int getHealth(){
-                return Health;
-            }
-
-        }
-        public class Speed{
-            private double Speed;
-            public Speed(double Speed){
-                this.Speed = Speed;
-
-            }
-            public void addSpeed(double addSpeed){
-                this.Speed += addSpeed;
-            }
-            public double getSpeed(){
-                return Speed;
-            }
-
-        }
-
-        public class Stock{
-            private int Stock;
-            public Stock(int Stock){
-                this.Stock = Stock;
-
-            }
-            public void addStock(int addStock){
-                this.Stock += addStock;
-            }
-            public int getStock(){
-                return Stock;
-            }
-
-        }
-        
-        public class Summoned{
-            private int Summoned;
-            public Summoned(int Summoned){
-                this.Summoned = Summoned;
-
-            }
-            public void addSummoned(int addSummoned){
-                this.Summoned += addSummoned;
-            }
-            public int getSummoned(){
-                return Summoned;
-            }
-
-        }
-    }
 
 }

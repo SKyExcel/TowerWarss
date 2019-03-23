@@ -4,6 +4,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 import towerwar.Event.PJoin;
+import towerwar.Event.RClick;
 
 public final class TowerWar extends JavaPlugin {
 
@@ -24,6 +25,7 @@ public final class TowerWar extends JavaPlugin {
     private void registerEvents(){
         PluginManager pm = Bukkit.getPluginManager();
         pm.registerEvents(new PJoin(), this);
+        pm.registerEvents(new RClick(), this);
 
     }
 }
