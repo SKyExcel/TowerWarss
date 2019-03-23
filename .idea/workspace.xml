@@ -7,29 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc8d317a-6c89-40b2-a4f2-8d5d33ba0983" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/towerwar/Event/RClick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/towerwar/GUI/MonsterGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/towerwar/util/GUIUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/towerwar/TowerWar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/towerwar/TowerWar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/towerwar/Tstruct/TStruct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/towerwar/Tstruct/TStruct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/towerwar/util/MonsterManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/towerwar/util/MonsterManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Gold.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Gold.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Health.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Health.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Income.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Income.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Monster$Cost.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Monster$Health.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Monster$Income.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Monster$ItemCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Monster$Name.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Monster$Speed.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Monster$Stock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Monster$Summoned.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Monster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Stock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Stock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Team.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$messages.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$messages.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/towerwar/GUI/MonsterGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/towerwar/GUI/MonsterGUI.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -110,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/GUI/MonsterGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="285">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -194,8 +172,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1129" />
-    <option name="y" value="189" />
+    <option name="x" value="1114" />
+    <option name="y" value="42" />
     <option name="width" value="2745" />
     <option name="height" value="2138" />
   </component>
@@ -516,8 +494,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/GUI/MonsterGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="285">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

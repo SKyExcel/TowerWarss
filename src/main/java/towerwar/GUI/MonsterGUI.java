@@ -12,9 +12,9 @@ import java.util.Arrays;
 public class MonsterGUI {
     public void openInv(Player p){
         Inventory inv = Bukkit.createInventory(null,27,"Summoned Monster");
-      //  StockMonster("testtest",5,5,5,5,5,5,5,5,1,inv);
 
-          StockMonster("test",5,5,5,5,5,5,5,5,5,inv);
+     //     StockMonster("test",5,5,5,5,5,5,5,5,5,inv);
+        StockMonster("test",5,5,5,5,5,5,5,5,1,inv);
 
         p.openInventory(inv);
     }
