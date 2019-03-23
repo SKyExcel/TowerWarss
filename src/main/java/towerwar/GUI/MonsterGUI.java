@@ -14,7 +14,8 @@ public class MonsterGUI {
         Inventory inv = Bukkit.createInventory(null,27,"Summoned Monster");
 
      //     StockMonster("test",5,5,5,5,5,5,5,5,5,inv);
-        StockMonster("test",5,5,5,5,5,5,5,5,1,inv);
+        StockMonster("testaaa",5,5,5,5,5,5,5,5,1,inv);
+        StockMonster("test",5,5,5,5,5,5,5,5,5,inv);
 
         p.openInventory(inv);
     }
@@ -22,7 +23,14 @@ public class MonsterGUI {
 
         MonsterManager monster = new MonsterManager();
         monster.setParm(name,code,data,cost,income,Health,Speed,Stock,Summoned,Loc);
-         GUIUtil.Stack("§e" + monster.getname() , monster.getCode(),monster.getData(),monster.getStock(), Arrays.asList("", "§eCost: §6" + monster.getCost() , "§eIncome: §6+" +monster.getIncome() , "", "§aHealth: §f" + monster.getHealth() , "§aSpeed: §f" + monster.getSpeed() ,"", "§eStock: §6" + monster.getStock() ,"§eSummoned: §6" + monster.getSummoned()) ,5,inv);
+        Monsterparm(monster, inv);
 
     }
+
+    public void Monsterparm(MonsterManager monster , Inventory inv){
+
+        GUIUtil.Stack("§e" + monster.getname() , monster.getCode(),monster.getData(),monster.getStock(), Arrays.asList("", "§eCost: §6" + monster.getCost() , "§eIncome: §6+" +monster.getIncome() , "", "§aHealth: §f" + monster.getHealth() , "§aSpeed: §f" + monster.getSpeed() ,"", "§eStock: §6" + monster.getStock() ,"§eSummoned: §6" + monster.getSummoned()) ,monster.getLoc(),inv);
+
+    }
+
 }
