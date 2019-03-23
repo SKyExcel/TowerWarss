@@ -24,3 +24,5 @@ hs_err_pid*
 
 # IntelliJ IDEA project file
 .idea/
+.idea/workspace.xml
+TowerWar.iml
