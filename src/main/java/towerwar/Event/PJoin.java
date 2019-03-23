@@ -7,10 +7,13 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import towerwar.Tstruct.TStruct;
 
 public class PJoin implements Listener {
+
+    public Player p;
+    public TStruct v = new TStruct(p);
     @EventHandler
     public void onJoin(PlayerJoinEvent event){
-        Player p = event.getPlayer();
-        TStruct v = new TStruct(p);
+        p = event.getPlayer();
+
         v.addPlayer();
         p.sendMessage("Your Gold" + v.getGold());
 
