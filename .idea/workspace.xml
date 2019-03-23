@@ -8,6 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cc8d317a-6c89-40b2-a4f2-8d5d33ba0983" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/towerwar/GUI/MonsterGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/towerwar/GUI/MonsterGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/towerwar/Tstruct/TStruct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/towerwar/Tstruct/TStruct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/towerwar/util/MonsterManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/towerwar/util/MonsterManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,11 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/Event/RClick.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="133">
+              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -61,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/Tstruct/TStruct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="477">
+              <caret line="109" column="120" selection-start-line="109" selection-start-column="120" selection-end-line="109" selection-end-column="120" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#373#390#0" expanded="true" />
@@ -76,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/util/MonsterManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="694">
+              <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/GUI/MonsterGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="561">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,10 +154,10 @@
         <option value="$PROJECT_DIR$/src/main/java/towerwar/Event/PJoin.java" />
         <option value="$PROJECT_DIR$/src/main/java/towerwar/util/ActionBar.java" />
         <option value="$PROJECT_DIR$/src/main/java/towerwar/util/GUIUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/towerwar/util/MonsterManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/towerwar/Tstruct/TStruct.java" />
         <option value="$PROJECT_DIR$/src/main/java/towerwar/Event/RClick.java" />
         <option value="$PROJECT_DIR$/src/main/java/towerwar/TowerWar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/towerwar/Tstruct/TStruct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/towerwar/util/MonsterManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/towerwar/GUI/MonsterGUI.java" />
       </list>
     </option>
@@ -172,8 +171,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1114" />
-    <option name="y" value="42" />
+    <option name="x" value="1108" />
+    <option name="y" value="43" />
     <option name="width" value="2745" />
     <option name="height" value="2138" />
   </component>
@@ -352,7 +351,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="743" y="28" width="1830" height="1425" extended-state="0" />
+    <frame x="739" y="29" width="1830" height="1425" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22429378" />
@@ -449,16 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/Event/RClick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/TowerWar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -469,10 +458,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/Event/RClick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/Tstruct/TStruct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="477">
+          <caret line="109" column="120" selection-start-line="109" selection-start-column="120" selection-end-line="109" selection-end-column="120" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#373#390#0" expanded="true" />
@@ -484,8 +480,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/util/MonsterManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="694">
+          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -494,8 +490,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/GUI/MonsterGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="561">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

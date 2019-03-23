@@ -107,7 +107,7 @@ public class TStruct {
     }
 
     public class messages{
-       public String[] messages = {"§eYou got +§6" + getIncome() + "§e gold from passive income!"};
+       public String[] messages = {"§eYou got +§6" + getIncome() + "§e gold from passive income!" , "§cNot enough gold!"};
     }
 
 

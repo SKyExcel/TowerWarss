@@ -14,6 +14,7 @@ public class MonsterManager {
         private int Stock;
         private int Summoned;
         private int Loc;
+        private boolean AutoSummon;
         public String getname(){ return name; }
         public int getCode(){return code;}
         public int getData(){return data;}
@@ -24,8 +25,9 @@ public class MonsterManager {
         public int getStock(){return Stock;}
         public int getSummoned(){return Summoned;}
         public int getLoc(){return Loc;}
+        public boolean getAutoSummon(){return AutoSummon;}
 
-        public void setParm(String name, int code, int data,int cost,int income, int Health, double Speed, int Stock, int Summend, int Loc){
+        public void setParm(String name, int code, int data,int cost,int income, int Health, double Speed, int Stock, int Summend, boolean AutoSummon, int Loc){
             this.name = name;
             this.code = code;
             this.data = data;
@@ -35,6 +37,7 @@ public class MonsterManager {
             this.Speed = Speed;
             this.Stock = Stock;
             this.Summoned = Summend;
+            this.AutoSummon = AutoSummon;
             this.Loc = Loc;
         }
 
