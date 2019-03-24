@@ -1,4 +1,4 @@
 package towerwar.tower;
 
-public interface Tower {
+public class TowerArcher {
 }
