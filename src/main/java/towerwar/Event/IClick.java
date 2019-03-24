@@ -22,10 +22,13 @@ public class IClick implements Listener {
         TStruct v = new TStruct(p);
         Location loc ;
         loc  = new Location(p.getWorld(),5,5,5);
-
-        if(title.equals("Summoned Monster")){
-            switch (event.getCurrentItem().getItemMeta().getDisplayName()){
-                case "§eSilverFish":
+        event.setCancelled(true);
+        if(item == null || event.getCurrentItem().getType().getId() ==0) {
+            return;
+        } else {
+            if(title.equals("Summoned Monster")){
+                switch (event.getCurrentItem().getItemMeta().getDisplayName()){
+                    case "§eSilverFish":
                         SilverFish fish = new SilverFish(p);
                         if(TowerWar.instance.Value.get(p).getStock() != 0){
                             fish.spawn(loc,1);
@@ -33,13 +36,14 @@ public class IClick implements Listener {
                             p.sendMessage("§cNot enough monsters in stock!");
 
                         }
-                 event.setCancelled(true);
-                    break;
+                        break;
                     default:
 
                         break;
+                }
             }
         }
+
 
     }
 }
