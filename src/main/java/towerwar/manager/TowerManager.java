@@ -1,4 +1,6 @@
-package towerwar.tower;
+package towerwar.manager;
+
+import towerwar.manager.Tower;
 
 import java.util.ArrayList;
 import java.util.List;

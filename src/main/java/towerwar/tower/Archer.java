@@ -2,6 +2,8 @@ package towerwar.tower;
 
 import org.bukkit.Location;
 import towerwar.Tstruct.TStruct;
+import towerwar.manager.TowerAttackable;
+import towerwar.manager.TowerSpecialization;
 
 public class Archer implements TowerAttackable, TowerSpecialization {
 

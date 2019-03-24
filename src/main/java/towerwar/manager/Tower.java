@@ -1,4 +1,4 @@
-package towerwar.tower;
+package towerwar.manager;
 
 import org.bukkit.Location;
 import org.bukkit.entity.EntityType;

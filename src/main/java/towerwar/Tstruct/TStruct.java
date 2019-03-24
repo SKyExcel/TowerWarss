@@ -46,12 +46,13 @@ public class TStruct {
             this.Gold = Gold;
 
         }
-        public void addGold(int addGold){
+        public void add(int addGold){
             this.Gold = addGold;
         }
         public int getGold(){
             return Gold;
         }
+        public void increas(int increaseGold){this.Gold  -= increaseGold;}
 
     }
 
