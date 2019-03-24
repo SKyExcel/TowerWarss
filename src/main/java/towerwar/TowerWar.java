@@ -4,6 +4,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
+import towerwar.Event.IClick;
 import towerwar.Event.PJoin;
 import towerwar.Event.RClick;
 import towerwar.Tstruct.TStruct;
@@ -28,6 +29,7 @@ public final class TowerWar extends JavaPlugin {
 
     private void registerEvents(){
         PluginManager pm = Bukkit.getPluginManager();
+        pm.registerEvents(new IClick(), this);
         pm.registerEvents(new PJoin(), this);
         pm.registerEvents(new RClick(), this);
 

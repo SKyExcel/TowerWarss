@@ -13,10 +13,19 @@ public class RClick implements Listener {
     public void onClick(PlayerInteractEvent event){
         Action action = event.getAction();
         Player player = event.getPlayer();
-
+        String itemName = player.getItemInHand().getItemMeta().getDisplayName();
         if(action.equals(Action.RIGHT_CLICK_AIR)){
-            MonsterGUI monster = new MonsterGUI();
-            monster.openInv(player);
+
+            switch (itemName){
+                case "§eSummon monsters!":
+                    MonsterGUI monster = new MonsterGUI();
+                    monster.openInv(player);
+                    break;
+
+                default:
+                    break;
+            }
+
         }
     }
 }

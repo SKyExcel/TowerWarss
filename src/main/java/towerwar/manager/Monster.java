@@ -18,10 +18,12 @@ public interface Monster {
     int getSummend();
     int getLevel();
     int getStock();
+    boolean getLocked();
     String getName();
     void spawn(Location loc, int Level);
     void onDeath();
     void Stack(Inventory inv);
+
 
 
 
