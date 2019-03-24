@@ -1,12 +1,8 @@
 package towerwar.tower;
 
-import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.World;
-import org.bukkit.entity.Creeper;
 import towerwar.Tstruct.TStruct;
-import towerwar.manager.TowerAttackable;
-import towerwar.manager.TowerSpecialization;
 
 public class Archer implements TowerAttackable, TowerSpecialization {
 
@@ -30,7 +26,6 @@ public class Archer implements TowerAttackable, TowerSpecialization {
             dps[i] = damage[i] / dps[i];
         }
     }
-    World
 
     @Override
     public double getDamage() {
