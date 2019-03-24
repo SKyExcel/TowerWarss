@@ -1,5 +1,6 @@
 package towerwar.monster;
 
+import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
@@ -15,6 +16,7 @@ public class SilverFish implements Monster {
     private String name = "SilverFish";
     private int Level;
     private Location loc = null;
+    private boolean Locked = false;
     private int specialization = 0;
     private int Stock = 5;
     private int[] Cost = {5};
@@ -23,6 +25,7 @@ public class SilverFish implements Monster {
     private double[] Speed = {2.0};
     private Player player;
     private int Summend;
+
     public SilverFish(Player player){
         this.player = player;
     }
@@ -63,11 +66,16 @@ public class SilverFish implements Monster {
 
     @Override
     public void spawn(Location loc, int Level) {
-        if(TowerWar.instance.Value.get(player).getGold() >= 200){
 
+        if (!TowerWar.instance.Value.get(player).equals(null)) {
+            if (TowerWar.instance.Value.get(player).getGold() >= getCost()) {
+                if (TowerWar.instance.Value.get(player).getStock() > 0) {
+                    TowerWar.instance.Value.get(player).increaseStock();
+                    player.sendMessage("Spawned");
+                }
+            }
         }
-     }
-
+    }
     @Override
     public void onDeath() {
      }
@@ -78,7 +86,27 @@ public class SilverFish implements Monster {
     }
 
     @Override
-    public void Stack(Inventory inv) {
-        GUIUtil.Stack("§e" + getName(),97,0,getStock(), Arrays.asList("" ,"§eCost: §6" + getCost() , "§eIncome: §6+" + getIncome() , "" , "§aHealth: §f" + getHealth() , "§aSpeed: §f" + getSpeed() , "§eSummoned: §6" + getSummend()),0,inv);
+    public boolean getLocked() {
+        return Locked;
     }
+    @Override
+    public void Stack(Inventory inv) {
+        Bukkit.getScheduler().scheduleSyncRepeatingTask(TowerWar.instance, new Runnable() {
+            @Override
+            public void run() {
+                if(Locked == true){
+                            GUIUtil.Stack("§e" + getName(),97,0, TowerWar.instance.Value.get(player).getStock(), Arrays.asList("" ,"§eCost: §6" + getCost() , "§eIncome: §6+" + getIncome() , "" , "§aHealth: §f" + getHealth() , "§aSpeed: §f" + getSpeed() ,  "" , "§eStock: §6" +  TowerWar.instance.Value.get(player).getStock() ,"§eSummoned: §6" + getSummend() , "§eSummoned Bonus:" ,"   §6+"),0,inv);
+                } else{
+                    if(TowerWar.instance.Value.get(player).getStock() > 0){
+                            GUIUtil.Stack("§e" + getName(),97,0, TowerWar.instance.Value.get(player).getStock(), Arrays.asList("" ,"§eCost: §6" + getCost() , "§eIncome: §6+" + getIncome() , "" , "§aHealth: §f" + getHealth() , "§aSpeed: §f" + getSpeed() ,  "" , "§eStock: §6" +  TowerWar.instance.Value.get(player).getStock() ,"§eSummoned: §6" + getSummend() , "§eSummoned Bonus:" ,"   §6+"),0,inv);
+                    } else{
+                        if(TowerWar.instance.Value.get(player).getStock() == 0){
+                            GUIUtil.Stack("§e" + getName(),97,0, TowerWar.instance.Value.get(player).getStock(), Arrays.asList("" ,"§eCost: §6" + getCost() , "§eIncome: §6+" + getIncome() , "" , "§aHealth: §f" + getHealth() , "§aSpeed: §f" + getSpeed() ,  "" , "§eStock: §6" +  TowerWar.instance.Value.get(player).getStock() ,"§eSummoned: §6" + getSummend() , "§eSummoned Bonus:" ,"   §6+"),0,inv);
+                        }
+                    }
+                }
+            }
+        },1,1);
+     }
+
 }

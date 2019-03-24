@@ -1,8 +1,10 @@
 package towerwar.util;
 
+import org.bukkit.Bukkit;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.material.MaterialData;
+import towerwar.TowerWar;
 
 import java.util.List;
 
@@ -12,8 +14,10 @@ public class GUIUtil {
         org.bukkit.inventory.ItemStack item = new MaterialData(ID, (byte)DATA).toItemStack(STACK);
         ItemMeta meta = item.getItemMeta();
         meta.setDisplayName(Display);
-        meta.setLore(lore);
-        item.setItemMeta(meta);
+
+                meta.setLore(lore);
+
+         item.setItemMeta(meta);
         inv.setItem(loc, item);
     }
 }

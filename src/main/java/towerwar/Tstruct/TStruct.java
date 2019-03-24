@@ -16,7 +16,7 @@ public class TStruct {
     public HashMap<Player , MonsterManager> MonsterMap = new HashMap<Player , MonsterManager>();
 
     //Variable's class
-    private Stock stockclass = new Stock(100);
+    private Stock stockclass = new Stock(5);
     private  Gold goldclass = new Gold(500);
     private Income incomeclass = new Income(0);
     private Health healthclass = new Health(20);
@@ -33,6 +33,16 @@ public class TStruct {
     public int getGold(){
 
         return GoldMap.get(player).getGold();
+    }
+    public  int getStock(){
+
+        return StockMap.get(player).getStock();
+    }
+    public void increaseStock(){
+        StockMap.get(player).increase();
+    }
+    public void addStock(){
+        StockMap.get(player).addStock();
     }
     public int getIncome(){
 
@@ -63,12 +73,13 @@ public class TStruct {
             this.Stock = Stock;
 
         }
-        public void addStock(int addStock){
-            this.Stock += addStock;
+        public void addStock(){
+            this.Stock ++;
         }
         public int getStock(){
             return Stock;
         }
+        public void increase(){ this.Stock --;}
 
     }
 
