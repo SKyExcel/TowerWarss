@@ -1,6 +1,4 @@
-package towerwar.manager;
-
-import towerwar.manager.Tower;
+package towerwar.tower;
 
 public interface TowerAttackable extends Tower {
 
