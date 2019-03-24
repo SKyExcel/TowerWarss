@@ -17,7 +17,7 @@ public class TStruct {
     public HashMap<Player , Health> HealthMap = new HashMap<Player , Health>();
     public HashMap<Player , MonsterManager> MonsterMap = new HashMap<Player , MonsterManager>();
     public HashMap<Player , coolTime> CoolTime = new HashMap<Player, coolTime>();
-    public HashMap<Player , Team> Team = new HashMap<Player, Team>();
+    public HashMap<Player , Team> teamMap = new HashMap<Player, Team>();
 
     //Variable's class
     private Stock stockclass = new Stock(5);
@@ -39,7 +39,7 @@ public class TStruct {
     }
 
 
-    public void setTeam(Team newTeam){ Team.put(player,newTeam); }
+    public void setTeam(Team newTeam){ teamMap.put(player,newTeam); }
     public void run(){ CoolTime.get(player).run(); }
     public int getGold(){ return GoldMap.get(player).getGold(); }
     public  int getStock(){ return StockMap.get(player).getStock(); }

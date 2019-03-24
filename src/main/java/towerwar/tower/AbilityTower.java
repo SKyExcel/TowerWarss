@@ -1,7 +1,7 @@
 package towerwar.tower;
 
-public interface SpecialTower extends Tower {
+public interface AbilityTower extends Tower {
 
-    void doSpecial();
+    void tryAbility();
 
 }

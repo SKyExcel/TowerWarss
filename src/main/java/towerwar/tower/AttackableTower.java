@@ -1,7 +1,8 @@
 package towerwar.tower;
 
-public interface SpecilizationTower {
+public interface AttackableTower {
 
-    Specialization getSpecialization();
+    int getDamage();
+    double getDPS();
 
 }
