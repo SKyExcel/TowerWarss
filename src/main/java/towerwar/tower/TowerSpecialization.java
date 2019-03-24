@@ -2,7 +2,7 @@ package towerwar.tower;
 
 public interface TowerSpecialization extends Tower {
 
-    void getSpecialization();
+    int getSpecialization();
 
     void upgrade(int specialization);
 

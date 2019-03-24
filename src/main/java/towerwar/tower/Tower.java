@@ -6,6 +6,11 @@ import towerwar.Tstruct.TStruct;
 
 public interface Tower {
 
+    double range = 0;
+    double reload = 0;
+    int cost = 0;
+    int tier = 0;
+
     double getRange();
     double getReload();
 
