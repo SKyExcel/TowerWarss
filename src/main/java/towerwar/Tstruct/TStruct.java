@@ -13,10 +13,11 @@ public class TStruct {
     private Player player;
     public HashMap<Player , Gold> GoldMap = new HashMap<Player , Gold>();
     public HashMap<Player , Stock> StockMap = new HashMap<Player , Stock>();
-    public HashMap<Player , Income> IncomeMap = new HashMap<Player , Income>();
+    public HashMap<Team , Income> IncomeMap = new HashMap<Team , Income>();
     public HashMap<Player , Health> HealthMap = new HashMap<Player , Health>();
     public HashMap<Player , MonsterManager> MonsterMap = new HashMap<Player , MonsterManager>();
     public HashMap<Player , coolTime> CoolTime = new HashMap<Player, coolTime>();
+    public HashMap<Player , Team> Team = new HashMap<Player, Team>();
 
     //Variable's class
     private Stock stockclass = new Stock(5);
@@ -24,28 +25,26 @@ public class TStruct {
     private Income incomeclass = new Income(0);
     private Health healthclass = new Health(20);
     private coolTime timeclass = new coolTime();
-
+    private Team team;
 
 
     public TStruct(Player player){
         this.player = player;
     }
+
     public void addPlayer(){
     GoldMap.put(player, this.goldclass);
     StockMap.put(player, this.stockclass);
-    IncomeMap.put(player,this.incomeclass);
-     }
-    public void run(){
-        CoolTime.get(player).run();
+    IncomeMap.put(team,this.incomeclass);
     }
-    public int getGold(){
 
-        return GoldMap.get(player).getGold();
-    }
-    public  int getStock(){
 
-        return StockMap.get(player).getStock();
-    }
+    public void setTeam(Team newTeam){ Team.put(player,newTeam); }
+    public void run(){ CoolTime.get(player).run(); }
+    public int getGold(){ return GoldMap.get(player).getGold(); }
+    public  int getStock(){ return StockMap.get(player).getStock(); }
+
+
     public void increaseStock(){
         StockMap.get(player).increase();
     }
@@ -73,6 +72,8 @@ public class TStruct {
             }
         },40,40);
     }
+
+
         /*Base Game Logic*/
     public class Gold{
         private int Gold;
@@ -89,6 +90,7 @@ public class TStruct {
         public void increas(int increaseGold){this.Gold  -= increaseGold;}
 
     }
+
 
     public class Stock{
 
@@ -107,6 +109,7 @@ public class TStruct {
 
     }
 
+
     public class Income{
         private int Income;
         public Income(int Income){
@@ -122,6 +125,7 @@ public class TStruct {
 
     }
 
+
     public class Health{
         private int Health;
         public Health(int Health){
@@ -136,7 +140,8 @@ public class TStruct {
         }
 
     }
-    
+
+
     public void sendMessage(int message){
         messages messages = new messages();
         player.sendMessage(messages.messages[message]);
@@ -147,8 +152,8 @@ public class TStruct {
     }
 
 
-
     public enum Team{BLUE,RED,GREEN,YELLOW,ORANGE,AQUA}
+
 
     public class coolTime{
         private int sec;
@@ -157,6 +162,7 @@ public class TStruct {
         public int getmin(){return min;}
         public void increaseSec(){sec--;}
         public void IncreaseMin(){min--;}
+
         public void run(){
             Bukkit.getScheduler().scheduleSyncRepeatingTask(TowerWar.instance, new Runnable() {
                 @Override
@@ -170,7 +176,6 @@ public class TStruct {
         }
     }
 
-    /*Monster Class*/
 
 
 }
