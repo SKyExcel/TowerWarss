@@ -12,6 +12,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 import towerwar.TowerWar;
 import towerwar.Tstruct.TStruct;
 import towerwar.util.GUIUtil;
+import towerwar.util.ScoreBoard;
 
 import java.util.Arrays;
 
@@ -35,6 +36,10 @@ public class PJoin implements Listener {
         GUIUtil.ItemBuilder("§eClick to place a tower",416,0,1,Arrays.asList("§fYou can simply aim at a block" , "§fwith this item to §bplace §fa" , "§ftower anywhere in your plot" ,"" ,"§fTowers help you defened against" ,"§fenemy monsters!") ,p,1);
         p.sendMessage("§bYou can start summoning monsters in ");
         v.Regenstock();
+
+        ScoreBoard board = new ScoreBoard(event.getPlayer() , "TOWERWARS");
+        board.newScoreBoard();
+
 
     }
 

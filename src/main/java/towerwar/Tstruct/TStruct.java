@@ -43,6 +43,7 @@ public class TStruct {
 
       public void run(){ CoolTime.get(player).run(); }
     public int getGold(){ return GoldMap.get(player).getGold(); }
+    public void increaseGold(int newGold){ GoldMap.get(player).increas(newGold);}
     public  int getStock(){ return StockMap.get(player).getStock(); }
 
 

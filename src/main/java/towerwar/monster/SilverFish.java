@@ -12,9 +12,8 @@ import towerwar.util.GUIUtil;
 import java.util.Arrays;
 
 public class SilverFish implements Monster {
-    private TStruct.Team team;
-    private String name = "SilverFish";
-    private int Level;
+     private String name = "SilverFish";
+    private int Level = 0;
     private Location loc = null;
     private boolean Locked = false;
     private int specialization = 0;
@@ -67,11 +66,18 @@ public class SilverFish implements Monster {
     @Override
     public void spawn(Location loc, int Level) {
         if (!TowerWar.instance.Value.get(player).equals(null)) {
-            if (TowerWar.instance.Value.get(player).getGold() >= getCost()) {
-                if (TowerWar.instance.Value.get(player).getStock() > 0) {
-                    TowerWar.instance.Value.get(player).increaseStock();
-                    addSummend();
-                 }
+            if(TowerWar.instance.Value.get(player).getGold() >=  0){
+                if (TowerWar.instance.Value.get(player).getGold() >= getCost()) {
+                    if (TowerWar.instance.Value.get(player).getStock() > 0) {
+                        player.sendMessage("Your Gold " +  TowerWar.instance.Value.get(player).getGold());
+                        TowerWar.instance.Value.get(player).increaseStock();
+                        TowerWar.instance.Value.get(player).increaseGold(Cost[this.Level]);
+                    } else{
+                        player.sendMessage("§cNot enough monsters in stock!");
+                     }
+                } else{
+                    player.sendMessage("§cNot enough gold!");
+                }
             }
         }
     }

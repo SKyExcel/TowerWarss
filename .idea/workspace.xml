@@ -9,16 +9,10 @@
     <list default="true" id="cc8d317a-6c89-40b2-a4f2-8d5d33ba0983" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/towerwar/Event/IClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/towerwar/Event/IClick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/towerwar/Event/PJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/towerwar/Event/PJoin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/towerwar/Tstruct/TStruct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/towerwar/Tstruct/TStruct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/towerwar/manager/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/towerwar/manager/Monster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/towerwar/monster/SilverFish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/towerwar/monster/SilverFish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/towerwar/tower/AbilityTower.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/towerwar/tower/AttackableTower.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/towerwar/tower/TowerArcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/towerwar/tower/TowerArcherI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/towerwar/tower/TowerArcherII.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/towerwar/tower/TowerArcherIII.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/towerwar/tower/TowerType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/towerwar/Event/RClick.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/towerwar/Event/RClick.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Gold.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Gold.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Health.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Health.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Income.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/towerwar/Tstruct/TStruct$Income.class" afterDir="false" />
@@ -53,18 +47,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/manager/TowerManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/manager/Monster.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
@@ -76,22 +58,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/monster/SilverFish.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="93" column="18" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
+            <state relative-caret-position="57">
+              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
                 <element signature="e#944#945#0" expanded="true" />
-                <element signature="e#995#996#0" expanded="true" />
-                <element signature="e#1319#1320#0" expanded="true" />
-                <element signature="e#1350#1351#0" expanded="true" />
-                <element signature="e#1925#1926#0" expanded="true" />
-                <element signature="e#1999#2000#0" expanded="true" />
-                <element signature="e#2026#2027#0" expanded="true" />
-                <element signature="e#2094#2095#0" expanded="true" />
-                <element signature="e#2117#2118#0" expanded="true" />
+                <element signature="e#978#979#0" expanded="true" />
+                <element signature="e#2360#2361#0" expanded="true" />
+                <element signature="e#2437#2438#0" expanded="true" />
+                <element signature="e#2510#2511#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/util/ScoreBoard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/Event/PJoin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="760">
+              <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/Event/IClick.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+            <state relative-caret-position="551">
+              <caret line="29" column="79" lean-forward="true" selection-start-line="29" selection-start-column="79" selection-end-line="29" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,31 +114,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/manager/Summoned.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/tower/AbilityTower.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/TowerWar.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/tower/AttackableTower.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/Event/PJoin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="38">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -142,24 +134,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/Tstruct/TStruct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="40" column="28" selection-start-line="40" selection-end-line="41" />
+            <state relative-caret-position="359">
+              <caret line="45" column="78" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#334#350#0" expanded="true" />
-                <element signature="e#463#478#0" expanded="true" />
-                <element signature="e#493#510#0" expanded="true" />
-                <element signature="e#582#607#0" expanded="true" />
-                <element signature="e#719#737#0" expanded="true" />
-                <element signature="e#793#807#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
-                <element signature="e#894#895#0" expanded="true" />
                 <element signature="method#getIncome#0;class#TStruct#0" />
-                <element signature="e#1704#1705#0" expanded="true" />
-                <element signature="e#1750#1751#0" expanded="true" />
-                <element signature="e#1781#1782#0" expanded="true" />
-                <element signature="e#1817#1818#0" expanded="true" />
-                <element signature="class#Income#0;class#TStruct#0" />
                 <element signature="method#Income#0;class#Income#0;class#TStruct#0" />
               </folding>
             </state>
@@ -171,8 +150,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -214,11 +193,12 @@
         <option value="$PROJECT_DIR$/src/main/java/towerwar/TowerWar.java" />
         <option value="$PROJECT_DIR$/src/main/java/towerwar/Event/RClick.java" />
         <option value="$PROJECT_DIR$/src/main/java/towerwar/util/GUIUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/towerwar/Event/PJoin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/towerwar/Tstruct/TStruct.java" />
         <option value="$PROJECT_DIR$/src/main/java/towerwar/manager/Monster.java" />
         <option value="$PROJECT_DIR$/src/main/java/towerwar/Event/IClick.java" />
+        <option value="$PROJECT_DIR$/src/main/java/towerwar/Tstruct/TStruct.java" />
         <option value="$PROJECT_DIR$/src/main/java/towerwar/monster/SilverFish.java" />
+        <option value="$PROJECT_DIR$/src/main/java/towerwar/Event/PJoin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/towerwar/util/ScoreBoard.java" />
       </list>
     </option>
   </component>
@@ -230,11 +210,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="301" />
-    <option name="y" value="49" />
-    <option name="width" value="2624" />
-    <option name="height" value="2138" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="549" />
+    <option name="y" value="172" />
+    <option name="width" value="2625" />
+    <option name="height" value="2045" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -364,8 +344,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -447,9 +427,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2575" height="1455" extended-state="6" />
+    <frame x="366" y="115" width="1750" height="1363" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13996024" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21005917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -466,7 +447,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.17397882" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.1300813" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24967742" />
@@ -509,18 +490,6 @@
     <MESSAGE value="MyTest" />
     <option name="LAST_COMMIT_MESSAGE" value="MyTest" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/towerwar/Tstruct/TStruct.java</url>
-          <line>114</line>
-          <properties field="Income" class="towerwar.Tstruct.TStruct.Income" />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/towerwar/TowerWar.java" />
     <entry file="file://$PROJECT_DIR$/towerwar.properties" />
@@ -540,16 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/util/ActionBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -658,48 +617,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/tower/SpecialTower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/Event/PJoin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/Tstruct/TStruct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="40" column="28" selection-start-line="40" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#334#350#0" expanded="true" />
-            <element signature="e#463#478#0" expanded="true" />
-            <element signature="e#493#510#0" expanded="true" />
-            <element signature="e#582#607#0" expanded="true" />
-            <element signature="e#719#737#0" expanded="true" />
-            <element signature="e#793#807#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
-            <element signature="method#getIncome#0;class#TStruct#0" />
-            <element signature="e#1704#1705#0" expanded="true" />
-            <element signature="e#1750#1751#0" expanded="true" />
-            <element signature="e#1781#1782#0" expanded="true" />
-            <element signature="e#1817#1818#0" expanded="true" />
-            <element signature="class#Income#0;class#TStruct#0" />
-            <element signature="method#Income#0;class#Income#0;class#TStruct#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/tower/SpecialTower.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/TowerWar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -709,8 +627,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/tower/TowerArcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="114">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -718,16 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/manager/MonsterManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -748,6 +656,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/tower/LoredTower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/tower/Specialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/manager/Monster.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -758,31 +684,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/Event/IClick.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/manager/MonsterManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/monster/SilverFish.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/tower/AttackableTower.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="93" column="18" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/tower/AbilityTower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/Tstruct/TStruct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="45" column="78" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#getIncome#0;class#TStruct#0" />
+            <element signature="method#Income#0;class#Income#0;class#TStruct#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Override.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/monster/SilverFish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
             <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
-            <element signature="e#1319#1320#0" expanded="true" />
-            <element signature="e#1350#1351#0" expanded="true" />
-            <element signature="e#1925#1926#0" expanded="true" />
-            <element signature="e#1999#2000#0" expanded="true" />
-            <element signature="e#2026#2027#0" expanded="true" />
-            <element signature="e#2094#2095#0" expanded="true" />
-            <element signature="e#2117#2118#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#2360#2361#0" expanded="true" />
+            <element signature="e#2437#2438#0" expanded="true" />
+            <element signature="e#2510#2511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/Event/IClick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="79" lean-forward="true" selection-start-line="29" selection-start-column="79" selection-end-line="29" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/util/ActionBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/Event/PJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/towerwar/util/ScoreBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

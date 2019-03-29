@@ -30,12 +30,8 @@ public class IClick implements Listener {
                 switch (event.getCurrentItem().getItemMeta().getDisplayName()){
                     case "§eSilverFish":
                         SilverFish fish = new SilverFish(p);
-                        if(TowerWar.instance.Value.get(p).getStock() != 0){
-                            fish.spawn(loc,1);
-                         }  else{
-                            p.sendMessage("§cNot enough monsters in stock!");
+                        fish.spawn(loc,1);
 
-                        }
                         break;
                     default:
 
