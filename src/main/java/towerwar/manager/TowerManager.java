@@ -1,12 +1,10 @@
 package towerwar.manager;
 
-import towerwar.tower.Tower;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class TowerManager {
-
+/*
     private List<Tower> towers = new ArrayList<>();
 
     public void addTower(Tower tower) {
@@ -20,5 +18,5 @@ public class TowerManager {
     public void resetTower() {
         towers.clear();
     }
-
+*/
 }

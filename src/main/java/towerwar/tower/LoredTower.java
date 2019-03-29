@@ -1,4 +1,9 @@
 package towerwar.tower;
 
-public class LoredTower {
+import java.util.List;
+
+public interface LoredTower {
+
+    List<String> getLore();
+
 }

@@ -6,6 +6,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEvent;
 import towerwar.GUI.MonsterGUI;
+import towerwar.GUI.TowerGUI;
 import towerwar.util.GUIUtil;
 
 public class RClick implements Listener {
@@ -20,6 +21,9 @@ public class RClick implements Listener {
                 case "§eSummon monsters!":
                     MonsterGUI monster = new MonsterGUI();
                     monster.openInv(player);
+                    break;
+                case "§eClick to place a tower":
+                    TowerGUI.openGui(player);
                     break;
 
                 default:

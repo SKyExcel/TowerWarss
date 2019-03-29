@@ -1,4 +1,7 @@
 package towerwar.tower;
 
-public class TimedTower {
+public interface TimedTower extends Tower {
+
+    double getReload();
+
 }
