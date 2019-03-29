@@ -32,7 +32,7 @@ public class IClick implements Listener {
                         SilverFish fish = new SilverFish(p);
                         if(TowerWar.instance.Value.get(p).getStock() != 0){
                             fish.spawn(loc,1);
-                        }  else{
+                         }  else{
                             p.sendMessage("§cNot enough monsters in stock!");
 
                         }

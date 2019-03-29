@@ -38,7 +38,7 @@ public class TStruct {
     IncomeMap.put(team,this.incomeclass);
     }
 
-
+    public Team getTeam(){return team;}
     public void setTeam(Team newTeam){ Team.put(player,newTeam); }
     public void run(){ CoolTime.get(player).run(); }
     public int getGold(){ return GoldMap.get(player).getGold(); }
@@ -55,6 +55,7 @@ public class TStruct {
 
          return IncomeMap.get(player).getIncome();
     }
+
 
     public void Regenstock(){
         Bukkit.getScheduler().scheduleSyncRepeatingTask(TowerWar.instance, new Runnable() {

@@ -23,7 +23,7 @@ public interface Monster {
     void spawn(Location loc, int Level);
     void onDeath();
     void Stack(Inventory inv);
-
+    void addSummend();
 
 
 
